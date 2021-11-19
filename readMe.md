@@ -2,11 +2,16 @@ To install rspec run following command on terminal:
 gem install rspec
 
 To run rspec:
-rspec *_spec.rb
+```ruby
+rspec spec/*
+```
 
 To run the toy simulator please place commands in a file and mention its name as argument to the ruby command:
 
+```ruby
 ruby robot.rb input.txt
-
-To execute rubocop run following from root dir
+```
+To execute rubocop run following command from root directory:
+```ruby
 rubocop
+```

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './robot'
+require_relative '../robot'
 
 RSpec.describe Robot do
   describe 'execute_commands' do

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './robot'
+require_relative '../robot'
 
 # rubocop:disable Metrics/BlockLength
 
